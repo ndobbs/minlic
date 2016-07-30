@@ -1,0 +1,25 @@
+#!/usr/local/bin/python3
+# ------------------------------------------------------------------------
+# mksched
+# prints random timestamps to standard output to serve as testing input
+# for the minlic utility
+# ------------------------------------------------------------------------
+
+from datetime import datetime, timedelta
+from random import randrange
+
+# create random dates starting from right now
+next_time = datetime.now()
+
+for i in range(1000):
+    print( next_time.timestamp(), end=' | ' )
+    print( next_time.ctime() )
+
+    # advance by a random number of hours, between 0 and 24
+    next_time = next_time + timedelta( hours=randrange(0,24))
+
+
+# ------------------------------------------------------------------------
+# vim:ts=4 sw=4 expandtab
+# ------------------------------------------------------------------------
+
