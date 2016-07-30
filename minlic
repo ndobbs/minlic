@@ -264,7 +264,7 @@ scans_timestamps = [
 # examines the front of the waiting queue for any licenses that have fulfilled
 # their blackout period
 #------------------------------------------------------------------------------
-def free_expired_licenses( waitq, activeq, next_scan, period_days=10):
+def free_expired_licenses( waitq, activeq, next_scan, blackout_days=10):
 
     done = False
     while not done:
@@ -276,7 +276,7 @@ def free_expired_licenses( waitq, activeq, next_scan, period_days=10):
         last_scan   = front_tuple[1]
 
         # has the blackout period expired?
-        if next_scan >= last_scan + timedelta( days=period_days ):
+        if next_scan >= last_scan + timedelta( days=blackout_days ):
             print("blackout lifted: " + front_tuple[0] )
             activeq.append( front_tuple[0] )
             waitq.pop()
@@ -300,7 +300,6 @@ def execute_scans_with_licenses( licenses, scans, blackout_days=10 ):
 
         # first, remove any licenses from the waiting queue whose blackouts
         # have expired
-
         free_expired_licenses( waiting_licenses_q, active_licenses_q, scan, blackout_days )
 
         # are we out of active licenses?
@@ -322,7 +321,6 @@ def execute_scans_with_licenses( licenses, scans, blackout_days=10 ):
     # the given number of licenses was sufficient to cover the scheduled scans
     return True
 
-
 #------------------------------------------------------------------------------
 # MAIN PORTION OF SCRIPT
 #------------------------------------------------------------------------------
@@ -339,12 +337,18 @@ scans_datetimes.sort()
 # relinquish the memory associated with the raw timestamps
 del scans_timestamps
 
-# populate the list of initial licenses
+num_licenses = 1
+last_attempt = 0
 licenses = []
-for i in range(100):
-    licenses.append( 'L' + str(i))
+done = False
+while not done:
+    print("ATTEMPTING WITH {0} LICENSE(S):".format( num_licenses ))
+    licenses.append( 'L' + str(num_licenses))
+    done = execute_scans_with_licenses( licenses, scans_datetimes )
+    last_attempt = num_licenses
+    num_licenses += 1
 
-execute_scans_with_licenses( licenses, scans_datetimes )
+print("MININUM LICENSE(S): {0}".format( last_attempt ))
 
 # ------------------------------------------------------------------------
 # vim:ts=4 sw=4 expandtab
