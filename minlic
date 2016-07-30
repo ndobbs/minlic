@@ -277,7 +277,7 @@ def free_expired_licenses( waitq, activeq, next_scan, blackout_days=10):
 
         # has the blackout period expired?
         if next_scan >= last_scan + timedelta( days=blackout_days ):
-            print("blackout lifted: " + front_tuple[0] )
+            print("[{0}] blackout lifted".format( front_tuple[0] ))
             activeq.append( front_tuple[0] )
             waitq.pop()
         else:
@@ -308,7 +308,7 @@ def execute_scans_with_licenses( licenses, scans, blackout_days=10 ):
             return False
 
         license_used = active_licenses_q[-1]
-        print("[" + license_used + "] successful scan: " + scan.ctime())
+        print("[{0}] successful scan: {1}".format( license_used, scan.ctime()))
 
         # The waiting queue is composed of two-element tuples: element-0 is
         # merely the license ID; element-1 is the associated scan which consumed it.
