@@ -1,21 +1,26 @@
+
 ATTEMPTING WITH 1 LICENSE(S):
 [L00001] successful scan: Fri Jul 29 23:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Sat Jul 30 11:27:59 2016
+
 ATTEMPTING WITH 2 LICENSE(S):
 [L00002] successful scan: Fri Jul 29 23:27:59 2016; 1 active remaining
 [L00001] successful scan: Sat Jul 30 11:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Sat Jul 30 13:27:59 2016
+
 ATTEMPTING WITH 3 LICENSE(S):
 [L00003] successful scan: Fri Jul 29 23:27:59 2016; 2 active remaining
 [L00002] successful scan: Sat Jul 30 11:27:59 2016; 1 active remaining
 [L00001] successful scan: Sat Jul 30 13:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Sun Jul 31 07:27:59 2016
+
 ATTEMPTING WITH 4 LICENSE(S):
 [L00004] successful scan: Fri Jul 29 23:27:59 2016; 3 active remaining
 [L00003] successful scan: Sat Jul 30 11:27:59 2016; 2 active remaining
 [L00002] successful scan: Sat Jul 30 13:27:59 2016; 1 active remaining
 [L00001] successful scan: Sun Jul 31 07:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Sun Jul 31 14:27:59 2016
+
 ATTEMPTING WITH 5 LICENSE(S):
 [L00005] successful scan: Fri Jul 29 23:27:59 2016; 4 active remaining
 [L00004] successful scan: Sat Jul 30 11:27:59 2016; 3 active remaining
@@ -23,6 +28,7 @@ ATTEMPTING WITH 5 LICENSE(S):
 [L00002] successful scan: Sun Jul 31 07:27:59 2016; 1 active remaining
 [L00001] successful scan: Sun Jul 31 14:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Sun Jul 31 15:27:59 2016
+
 ATTEMPTING WITH 6 LICENSE(S):
 [L00006] successful scan: Fri Jul 29 23:27:59 2016; 5 active remaining
 [L00005] successful scan: Sat Jul 30 11:27:59 2016; 4 active remaining
@@ -31,6 +37,7 @@ ATTEMPTING WITH 6 LICENSE(S):
 [L00002] successful scan: Sun Jul 31 14:27:59 2016; 1 active remaining
 [L00001] successful scan: Sun Jul 31 15:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Mon Aug  1 12:27:59 2016
+
 ATTEMPTING WITH 7 LICENSE(S):
 [L00007] successful scan: Fri Jul 29 23:27:59 2016; 6 active remaining
 [L00006] successful scan: Sat Jul 30 11:27:59 2016; 5 active remaining
@@ -40,6 +47,7 @@ ATTEMPTING WITH 7 LICENSE(S):
 [L00002] successful scan: Sun Jul 31 15:27:59 2016; 1 active remaining
 [L00001] successful scan: Mon Aug  1 12:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Mon Aug  1 22:27:59 2016
+
 ATTEMPTING WITH 8 LICENSE(S):
 [L00008] successful scan: Fri Jul 29 23:27:59 2016; 7 active remaining
 [L00007] successful scan: Sat Jul 30 11:27:59 2016; 6 active remaining
@@ -50,6 +58,7 @@ ATTEMPTING WITH 8 LICENSE(S):
 [L00002] successful scan: Mon Aug  1 12:27:59 2016; 1 active remaining
 [L00001] successful scan: Mon Aug  1 22:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Tue Aug  2 19:27:59 2016
+
 ATTEMPTING WITH 9 LICENSE(S):
 [L00009] successful scan: Fri Jul 29 23:27:59 2016; 8 active remaining
 [L00008] successful scan: Sat Jul 30 11:27:59 2016; 7 active remaining
@@ -61,6 +70,7 @@ ATTEMPTING WITH 9 LICENSE(S):
 [L00002] successful scan: Mon Aug  1 22:27:59 2016; 1 active remaining
 [L00001] successful scan: Tue Aug  2 19:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Wed Aug  3 04:27:59 2016
+
 ATTEMPTING WITH 10 LICENSE(S):
 [L00010] successful scan: Fri Jul 29 23:27:59 2016; 9 active remaining
 [L00009] successful scan: Sat Jul 30 11:27:59 2016; 8 active remaining
@@ -73,6 +83,7 @@ ATTEMPTING WITH 10 LICENSE(S):
 [L00002] successful scan: Tue Aug  2 19:27:59 2016; 1 active remaining
 [L00001] successful scan: Wed Aug  3 04:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Wed Aug  3 11:27:59 2016
+
 ATTEMPTING WITH 11 LICENSE(S):
 [L00011] successful scan: Fri Jul 29 23:27:59 2016; 10 active remaining
 [L00010] successful scan: Sat Jul 30 11:27:59 2016; 9 active remaining
@@ -86,6 +97,7 @@ ATTEMPTING WITH 11 LICENSE(S):
 [L00002] successful scan: Wed Aug  3 04:27:59 2016; 1 active remaining
 [L00001] successful scan: Wed Aug  3 11:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Wed Aug  3 20:27:59 2016
+
 ATTEMPTING WITH 12 LICENSE(S):
 [L00012] successful scan: Fri Jul 29 23:27:59 2016; 11 active remaining
 [L00011] successful scan: Sat Jul 30 11:27:59 2016; 10 active remaining
@@ -100,6 +112,7 @@ ATTEMPTING WITH 12 LICENSE(S):
 [L00002] successful scan: Wed Aug  3 11:27:59 2016; 1 active remaining
 [L00001] successful scan: Wed Aug  3 20:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Thu Aug  4 01:27:59 2016
+
 ATTEMPTING WITH 13 LICENSE(S):
 [L00013] successful scan: Fri Jul 29 23:27:59 2016; 12 active remaining
 [L00012] successful scan: Sat Jul 30 11:27:59 2016; 11 active remaining
@@ -115,6 +128,7 @@ ATTEMPTING WITH 13 LICENSE(S):
 [L00002] successful scan: Wed Aug  3 20:27:59 2016; 1 active remaining
 [L00001] successful scan: Thu Aug  4 01:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Thu Aug  4 06:27:59 2016
+
 ATTEMPTING WITH 14 LICENSE(S):
 [L00014] successful scan: Fri Jul 29 23:27:59 2016; 13 active remaining
 [L00013] successful scan: Sat Jul 30 11:27:59 2016; 12 active remaining
@@ -131,6 +145,7 @@ ATTEMPTING WITH 14 LICENSE(S):
 [L00002] successful scan: Thu Aug  4 01:27:59 2016; 1 active remaining
 [L00001] successful scan: Thu Aug  4 06:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Fri Aug  5 03:27:59 2016
+
 ATTEMPTING WITH 15 LICENSE(S):
 [L00015] successful scan: Fri Jul 29 23:27:59 2016; 14 active remaining
 [L00014] successful scan: Sat Jul 30 11:27:59 2016; 13 active remaining
@@ -148,6 +163,7 @@ ATTEMPTING WITH 15 LICENSE(S):
 [L00002] successful scan: Thu Aug  4 06:27:59 2016; 1 active remaining
 [L00001] successful scan: Fri Aug  5 03:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Fri Aug  5 17:27:59 2016
+
 ATTEMPTING WITH 16 LICENSE(S):
 [L00016] successful scan: Fri Jul 29 23:27:59 2016; 15 active remaining
 [L00015] successful scan: Sat Jul 30 11:27:59 2016; 14 active remaining
@@ -166,6 +182,7 @@ ATTEMPTING WITH 16 LICENSE(S):
 [L00002] successful scan: Fri Aug  5 03:27:59 2016; 1 active remaining
 [L00001] successful scan: Fri Aug  5 17:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Sat Aug  6 16:27:59 2016
+
 ATTEMPTING WITH 17 LICENSE(S):
 [L00017] successful scan: Fri Jul 29 23:27:59 2016; 16 active remaining
 [L00016] successful scan: Sat Jul 30 11:27:59 2016; 15 active remaining
@@ -185,6 +202,7 @@ ATTEMPTING WITH 17 LICENSE(S):
 [L00002] successful scan: Fri Aug  5 17:27:59 2016; 1 active remaining
 [L00001] successful scan: Sat Aug  6 16:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Sun Aug  7 13:27:59 2016
+
 ATTEMPTING WITH 18 LICENSE(S):
 [L00018] successful scan: Fri Jul 29 23:27:59 2016; 17 active remaining
 [L00017] successful scan: Sat Jul 30 11:27:59 2016; 16 active remaining
@@ -205,6 +223,7 @@ ATTEMPTING WITH 18 LICENSE(S):
 [L00002] successful scan: Sat Aug  6 16:27:59 2016; 1 active remaining
 [L00001] successful scan: Sun Aug  7 13:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Mon Aug  8 10:27:59 2016
+
 ATTEMPTING WITH 19 LICENSE(S):
 [L00019] successful scan: Fri Jul 29 23:27:59 2016; 18 active remaining
 [L00018] successful scan: Sat Jul 30 11:27:59 2016; 17 active remaining
@@ -238,6 +257,7 @@ ATTEMPTING WITH 19 LICENSE(S):
 [L00015] successful scan: Wed Aug 10 16:27:59 2016; 1 active remaining
 [L00014] successful scan: Wed Aug 10 21:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Thu Aug 11 01:27:59 2016
+
 ATTEMPTING WITH 20 LICENSE(S):
 [L00020] successful scan: Fri Jul 29 23:27:59 2016; 19 active remaining
 [L00019] successful scan: Sat Jul 30 11:27:59 2016; 18 active remaining
@@ -272,6 +292,7 @@ ATTEMPTING WITH 20 LICENSE(S):
 [L00016] successful scan: Wed Aug 10 21:27:59 2016; 1 active remaining
 [L00015] successful scan: Thu Aug 11 01:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Thu Aug 11 01:27:59 2016
+
 ATTEMPTING WITH 21 LICENSE(S):
 [L00021] successful scan: Fri Jul 29 23:27:59 2016; 20 active remaining
 [L00020] successful scan: Sat Jul 30 11:27:59 2016; 19 active remaining
@@ -327,6 +348,7 @@ ATTEMPTING WITH 21 LICENSE(S):
 [L00006] blackout lifted (from Fri Aug  5 17:27:59 2016)
 [L00006] successful scan: Mon Aug 15 18:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Tue Aug 16 01:27:59 2016
+
 ATTEMPTING WITH 22 LICENSE(S):
 [L00022] successful scan: Fri Jul 29 23:27:59 2016; 21 active remaining
 [L00021] successful scan: Sat Jul 30 11:27:59 2016; 20 active remaining
@@ -389,6 +411,7 @@ ATTEMPTING WITH 22 LICENSE(S):
 [L00004] blackout lifted (from Mon Aug  8 10:27:59 2016)
 [L00004] successful scan: Thu Aug 18 13:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Thu Aug 18 20:27:59 2016
+
 ATTEMPTING WITH 23 LICENSE(S):
 [L00023] successful scan: Fri Jul 29 23:27:59 2016; 22 active remaining
 [L00022] successful scan: Sat Jul 30 11:27:59 2016; 21 active remaining
@@ -460,6 +483,7 @@ ATTEMPTING WITH 23 LICENSE(S):
 [L00001] blackout lifted (from Wed Aug 10 07:27:59 2016)
 [L00001] successful scan: Sat Aug 20 12:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Sat Aug 20 14:27:59 2016
+
 ATTEMPTING WITH 24 LICENSE(S):
 [L00024] successful scan: Fri Jul 29 23:27:59 2016; 23 active remaining
 [L00023] successful scan: Sat Jul 30 11:27:59 2016; 22 active remaining
@@ -774,6 +798,7 @@ ATTEMPTING WITH 24 LICENSE(S):
 [L00001] blackout lifted (from Sun Oct  9 23:27:59 2016)
 [L00001] successful scan: Thu Oct 20 11:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Thu Oct 20 13:27:59 2016
+
 ATTEMPTING WITH 25 LICENSE(S):
 [L00025] successful scan: Fri Jul 29 23:27:59 2016; 24 active remaining
 [L00024] successful scan: Sat Jul 30 11:27:59 2016; 23 active remaining
@@ -1089,6 +1114,7 @@ ATTEMPTING WITH 25 LICENSE(S):
 [L00008] successful scan: Thu Oct 20 11:27:59 2016; 1 active remaining
 [L00007] successful scan: Thu Oct 20 13:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Thu Oct 20 16:27:59 2016
+
 ATTEMPTING WITH 26 LICENSE(S):
 [L00026] successful scan: Fri Jul 29 23:27:59 2016; 25 active remaining
 [L00025] successful scan: Sat Jul 30 11:27:59 2016; 24 active remaining
@@ -1423,6 +1449,7 @@ ATTEMPTING WITH 26 LICENSE(S):
 [L00005] successful scan: Mon Oct 24 17:27:59 2016; 1 active remaining
 [L00004] successful scan: Mon Oct 24 19:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Mon Oct 24 21:27:59 2016
+
 ATTEMPTING WITH 27 LICENSE(S):
 [L00027] successful scan: Fri Jul 29 23:27:59 2016; 26 active remaining
 [L00026] successful scan: Sat Jul 30 11:27:59 2016; 25 active remaining
@@ -1762,6 +1789,7 @@ ATTEMPTING WITH 27 LICENSE(S):
 [L00008] blackout lifted (from Sat Oct 15 11:27:59 2016)
 [L00008] successful scan: Tue Oct 25 14:27:59 2016; 0 active remaining
 No active licenses to satisfy scan: Wed Oct 26 01:27:59 2016
+
 ATTEMPTING WITH 28 LICENSE(S):
 [L00028] successful scan: Fri Jul 29 23:27:59 2016; 27 active remaining
 [L00027] successful scan: Sat Jul 30 11:27:59 2016; 26 active remaining

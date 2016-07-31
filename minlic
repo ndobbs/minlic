@@ -345,7 +345,7 @@ last_attempt = 0
 licenses = []
 done = False
 while not done:
-    print("ATTEMPTING WITH {0} LICENSE(S):".format( num_licenses ))
+    print("\nATTEMPTING WITH {0} LICENSE(S):".format( num_licenses ))
     licenses.append( 'L{0}'.format(str(num_licenses).zfill(5)))
 
     done = execute_scans_with_licenses( licenses, scans_datetimes )
