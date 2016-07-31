@@ -261,8 +261,9 @@ scans_timestamps = [
 
 #------------------------------------------------------------------------------
 # free_expired_licenses
-# examines the front of the waiting queue for any licenses that have fulfilled
-# their blackout period
+# examines the front of the waiting queue for any licenses whose blackout periods
+# have expired. If any are found, remove them from the waiting queue and place
+# into the active queue
 #------------------------------------------------------------------------------
 def free_expired_licenses( waitq, activeq, next_scan, blackout_days=10):
 
@@ -277,7 +278,8 @@ def free_expired_licenses( waitq, activeq, next_scan, blackout_days=10):
 
         # has the blackout period expired?
         if next_scan >= last_scan + timedelta( days=blackout_days ):
-            print("[{0}] blackout lifted".format( front_tuple[0] ))
+            print("[{0}] blackout lifted".format( front_tuple[0] ), end=" ")
+            print("(from {0})".format( last_scan.ctime() ))
             activeq.appendleft( front_tuple[0] )
             waitq.pop()
         else:
@@ -331,7 +333,7 @@ scans_datetimes = []
 for sts in scans_timestamps:
     scans_datetimes.append(datetime.fromtimestamp(float(sts)))
 
-# ensure scans are sorted in chronological order
+# sort scans into chronological order
 scans_datetimes.sort()
 
 # relinquish the memory associated with the raw timestamps
@@ -343,7 +345,9 @@ licenses = []
 done = False
 while not done:
     print("ATTEMPTING WITH {0} LICENSE(S):".format( num_licenses ))
-    licenses.append( 'L' + str(num_licenses))
+    #licenses.append( 'L' + str(num_licenses))
+    licenses.append( 'L{0}'.format(str(num_licenses).zfill(5)))
+
     done = execute_scans_with_licenses( licenses, scans_datetimes )
     last_attempt = num_licenses
     num_licenses += 1
