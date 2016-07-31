@@ -343,12 +343,18 @@ del scans_timestamps
 num_licenses = 1
 last_attempt = 0
 licenses = []
+
 done = False
 while not done:
     print("\nATTEMPTING WITH {0} LICENSE(S):".format( num_licenses ))
-    licenses.append( 'L{0}'.format(str(num_licenses).zfill(5)))
 
+    # License IDs appear like 'L0003'
+    licenses.append( 'L{0}'.format(str(num_licenses).zfill(4)))
+
+    # We're done when execute_scans_with_licenses completes successfully
     done = execute_scans_with_licenses( licenses, scans_datetimes )
+
+    # note the last attempt for when the loop exits successfully
     last_attempt = num_licenses
     num_licenses += 1
 
