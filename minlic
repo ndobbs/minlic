@@ -310,7 +310,7 @@ def execute_scans_with_licenses( licenses, scans, blackout_days=10 ):
             return False
 
         license_used = active_licenses_q[-1]
-        print("[{0}] successful scan: {1}".format( license_used, scan.ctime()))
+        print("[{0}] successful scan: {1}".format( license_used, scan.ctime()), end="; ")
 
         # The waiting queue is composed of two-element tuples: element-0 is
         # merely the license ID; element-1 is the associated scan which consumed it.
@@ -318,6 +318,7 @@ def execute_scans_with_licenses( licenses, scans, blackout_days=10 ):
         # active queue, and insert it into the waiting queue:
 
         waiting_licenses_q.appendleft( (active_licenses_q.pop(), scan) )
+        print("{0} active remaining".format( len( active_licenses_q)))
 
     # we've successfully executed every scan, so return True. Namely, that
     # the given number of licenses was sufficient to cover the scheduled scans
@@ -345,7 +346,6 @@ licenses = []
 done = False
 while not done:
     print("ATTEMPTING WITH {0} LICENSE(S):".format( num_licenses ))
-    #licenses.append( 'L' + str(num_licenses))
     licenses.append( 'L{0}'.format(str(num_licenses).zfill(5)))
 
     done = execute_scans_with_licenses( licenses, scans_datetimes )
